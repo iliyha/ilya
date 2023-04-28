@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.privet{
+    background-color:rgb(173,216,230);
+    font-size: 20px; 
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    color: rgb(0,0,255);
+    vertical-align: middle;
+    line-height: 40px;
+}
+.gl{
+    display: flex;
+}
+ul{
+    margin: 20px 40px 20px 40px;
+    list-style-type: disc;
+}
+
+.sport{
+    width: 200px; 
+    height: 420px;
+    float: left;
+}
+
+
+.osnova{
+    background: url(2.png) repeat-y right top;
+    background-color:rgb(255, 255, 255);
+    margin-left: 200px;
+    padding: 30px;
+}
+
+.glavnoe{
+    background-color:rgb(173,216,230);
+    font-size: 20px; 
+    color: rgb(0,0,255);
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+}
+@media all and (max-width: 500px){
+    .bbsb{
+        display: flex;
+        flex-direction: column;
+        clear: none;
+    }
+    .sport{
+        display: flex;
+        float: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 260px;
+
+
+    }
+    .sport ul{
+        margin: 0px;
+        text-align: center;
+    }
+    .sport ul li{
+        list-style-type: none;
+    }
+    .osnova{
+        margin-left: 0px;
+    }
+}
+@media all and (max-width: 425px){
+    .privet{
+        height: 60px; 
+    }
+    .glavnoe {
+        height: 90px;
+    }
+}
