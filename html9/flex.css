@@ -12,26 +12,28 @@
     vertical-align: middle;
     line-height: 40px;
 }
-.gl{
+.bbsb{
     display: flex;
+}
+.sport{
+    width: 200px; 
+    height: 420px;
+    float: left;
 }
 ul{
     margin: 20px 40px 20px 40px;
     list-style-type: disc;
 }
 
-.sport{
-    width: 200px; 
-    height: 420px;
-    float: left;
-}
-
-
 .osnova{
     background: url(2.png) repeat-y right top;
     background-color:rgb(255, 255, 255);
     margin-left: 200px;
     padding: 30px;
+}
+.osnova h1{
+    text-align: center;
+    margin-top: 0px;
 }
 
 .glavnoe{

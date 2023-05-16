@@ -12,25 +12,18 @@
     vertical-align: middle;
     line-height: 40px;
 }
-.bbsb {
-    background-color:rgb(173,216,230)
+.bbsb{
+    display: grid;
 }
-h1{
-    text-align: center;
-    line-height: 25px;
-    margin: 10px;
-}
-ul{
-    margin: 20px 40px 20px 40px;
-    list-style-type: disc;
-}
-
 .sport{
     width: 200px; 
     height: 420px;
     float: left;
 }
-
+ul{
+    margin: 20px 40px 20px 40px;
+    list-style-type: disc;
+}
 
 .osnova{
     background: url(2.png) repeat-y right top;
@@ -38,7 +31,7 @@ ul{
     margin-left: 200px;
     padding: 30px;
 }
-.osnova h3{
+.osnova h1{
     text-align: center;
     margin-top: 0px;
 }
